@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚀 Torpedo Calculator - Carrier Command 2</title>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self';">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Torpedo Calculator 🎯
+            Carrier Command 2
+        </h1>
+        <h1></h1>
+        <form id="torpedoForm">
+            <div class="input-group">
+                <label>📏 Distance to Target</label>
+                <input type="text" id="distance" placeholder="Enter distance">
+            </div>
+            <div class="input-group">
+                <label>🎚️ Arming Distance</label>
+                <input type="text" id="arming_distance" value="1000">
+            </div>
+            <input type="submit" value="🔥 Calculate">
+        </form>
+        <div id="result" class="result"></div>
+        <div class="info-section">
+            <h2>📖 Torpedo Strategy Guide</h2>
+            
+            <h3>⚡ Quick Facts</h3>
+            <ul>
+                <li>Speed: 50 meters/second</li>
+                <li>Range: 15km+</li>
+                <li>Valid targets: Needlefish, Swordfish, and Carriers</li>
+            </ul>
+
+            <h3>🎯 Optimal Firing</h3>
+            <ul>
+                <li><strong>Best Position:</strong> Fire torpedoes broadside to your hull</li>
+                <li><strong>Avoid:</strong> Firing along bow/stern (adds 20s turn time and 750m error)</li>
+                <li><strong>Ocean currents</strong> affect torpedo trajectory</li>
+            </ul>
+
+            <h3>⚙️ Arming Strategy</h3>
+            <ul>
+                <li><strong>Ideal arming point:</strong> 1000m before target</li>
+                <li><strong>Why?</strong> Bypasses enemy noisemaker defenses</li>
+                <li><strong>Calculate delay:</strong> (Distance - 1000m) ÷ 50 = Activation Delay in seconds</li>
+            </ul>
+
+            
+
+            <h3>⚠️ Enemy Defenses</h3>
+            <ul>
+                <li>Carriers & Swordfish: Always have noisemaker defenses</li>
+                <li>Needlefish: May have noisemaker capability</li>
+            </ul>
+
+            <p class="attribution">Source: <a href="https://strategywiki.org/wiki/Carrier_Command_2/Carrier:_Offensive_Weapons#Torpedo_Strategy" target="_blank" rel="noopener noreferrer">StrategyWiki</a></p>
+        </div>
+    </div>
+    <footer>
+        <p>For more information, visit <a href="https://strategywiki.org/wiki/Carrier_Command_2/Carrier:_Offensive_Weapons#Torpedo_Strategy" target="_blank" rel="noopener noreferrer">Torpedo Strategy</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

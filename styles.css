@@ -1,0 +1,113 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    text-align: center;
+    background-color: #1e1e1e;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    max-width: 500px;
+    width: 90%;
+}
+.input-group {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input-group label {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+input[type="text"] {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    margin: 5px 0;
+    width: 80%;
+    background-color: #2d2d2d;
+    color: white;
+    text-align: center;
+}
+input[type="submit"] {
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: #6200ea;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 1.1em;
+    margin-top: 20px;
+}
+input[type="submit"]:hover {
+    background-color: #3700b3;
+}
+h1 {
+    margin: 0 0 30px 0;
+    font-size: 2em;
+}
+.result {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #2d2d2d;
+    border-radius: 8px;
+}
+footer {
+    position: fixed; 
+    bottom: 0; left: 0; 
+    right: 0; 
+    background-color: #1e1e1e; 
+    padding: 10px; 
+    text-align: center;
+}
+
+.info-section {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #2d2d2d;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.info-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.info-section h3 {
+    font-size: 1.2em;
+    margin: 15px 0 10px;
+    margin-top: 20px;
+    color: #6200ea;
+}
+
+.info-section ul {
+    margin: 10px 0;
+    padding-left: 20px;
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.info-section li {
+    margin: 8px 0;
+    line-height: 1.4;
+}
+
+.info-section strong {
+    color: #bb86fc;
+}
+
+.attribution {
+    font-size: 0.9em;
+    margin-top: 15px;
+    text-align: right;
+    opacity: 0.8;
+}
